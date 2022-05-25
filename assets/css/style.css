@@ -132,7 +132,7 @@ footer {
     color: #0000FF;
 } 
 
-/* style the 3 squares*/
+/* style the 3 squares to be centered*/
 
 #healthy{
     text-align: center;
@@ -155,7 +155,11 @@ footer {
     display: inline-block;
     height: 60px;
     width: 60px;
-    }
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+        }
 
     #prevention-title {
 
