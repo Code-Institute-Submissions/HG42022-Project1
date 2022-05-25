@@ -97,7 +97,17 @@ nav {
     font-weight: 900;
     text-align: center;
 }
+/* highlight important messages in promise-text*/
+.marker{
+    color:#a9621f;
+    font-weight: bold;
+    }
 
+.capital{
+    text-transform: uppercase;
+    color:#333333
+    
+}
 /* style the hero image*/
 
 #image-home {
@@ -112,3 +122,21 @@ nav {
     background-attachment: fixed;
     background: url('./images/hero.jpeg') no-repeat;
 }
+/* style the footer*/
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    height: 150px;
+}
+.social-media {
+    display: inline;
+}
+.social-media i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 4%;
+    color: #0000FF;
+} 
