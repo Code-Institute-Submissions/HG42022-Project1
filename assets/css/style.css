@@ -76,6 +76,28 @@ nav {
     margin-right: 5px;
 }
 
+
+#promise-title {
+
+    font-size: 32px;
+    letter-spacing: 3px;
+    margin-top: 25px;
+
+}
+#promise{
+    text-align: center;
+    margin-top: 40px;
+
+    }
+
+#promise p{
+    letter-spacing: 4px;
+    font-weight: 900;
+    text-align: center;
+
+
+}
+
 /* style the hero image*/
 
 #image-home {
