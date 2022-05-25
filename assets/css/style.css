@@ -151,35 +151,35 @@ footer {
     color: #0000FF;
 } 
 
-/* style the 3 squares to be centered*/
+/* style the 3  rounds to be centered*/
 
 #healthy{
     text-align: center;
 }
 
 
-.container-healthy{
-    
-    position: absolute;
-    width: 400px;
-    height: 100px;
-    left: 50%;
-    top: 50%;
-    margin-left: -200px;
-    margin-top: -50px;
 
-    }
-.box-healthy{
+/* style the clickable rounds*/
+
+.round-box {
     background-color: #958270;
-    display: inline-block;
-    height: 60px;
-    width: 60px;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 5%;
+    height: 10rem;
+    width: 10rem;
     border-radius: 50%;
-    
-        }
+    margin: auto;
+    display: flex;
+}
+
+.container-box {
+    display: flex;
+    margin-top: 20rem;
+}
+
+.circle-link {
+    color: #000000;
+    margin: auto;
+}
+
 
     #prevention-title {
 
