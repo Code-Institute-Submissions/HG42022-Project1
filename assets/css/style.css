@@ -79,16 +79,15 @@ nav {
 /* style the hero image*/
 
 #image-home {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: absolute;
     z-index: -1;
     top: 0;
     left: 0;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background: url("../images/hero-image.webp");
+    background: url('./images/hero.jpeg') no-repeat;
 }
 
